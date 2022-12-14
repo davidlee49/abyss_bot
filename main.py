@@ -6,7 +6,7 @@ import asyncio
 intents = discord.Intents.all()
 intents.members = True
 bot = commands.Bot(command_prefix="!", intents=intents)
-TOKEN = "MTA1MjI4MjkzNjMyNzY2Nzc0NA.Gib6Q_.wKNqO_f1bEG-CKqWCuA-diasJcbiEb8nyS5RBs"
+
 
 
 async def load_extensions():
