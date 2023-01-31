@@ -1,8 +1,3 @@
-import random
-import discord.ui
-from discord.ext import commands
-import discord
-import bot
 
 import discord.ui
 import random

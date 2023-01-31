@@ -1,5 +1,4 @@
 import praw
-import random
 from bot_reqs import REDDIT_ID, REDDIT_CS, REDDIT_PASS, REDDIT_CID
 
 
