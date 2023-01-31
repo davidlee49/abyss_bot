@@ -1,4 +1,3 @@
-
 import discord.ui
 import random
 
@@ -44,7 +43,7 @@ class HangmanBoard(discord.ui.View):
             await interaction.response.edit_message(content=f"You Lose! The word was {self.word}", view=self)
         elif self.found_letters == "".join(self.word):
             self.disable_buttons()
-            await interaction.response.edit_message(content="You Win!", view=self)
+            await interaction.response.edit_message(content=f"You Win! The word was {self.word}", view=self)
         else:
             await interaction.response.edit_message(content=f"You have {self.hits} left! Current word: {self.found_letters}", view=self)
 
@@ -55,7 +54,7 @@ class HangmanBoard(discord.ui.View):
             await interaction.response.edit_message(content=f"You Lose! The word was {self.word}", view=self)
         elif self.found_letters == "".join(self.word):
             self.disable_buttons()
-            await interaction.response.edit_message(content="You Win!", view=self)
+            await interaction.response.edit_message(content=f"You Win! The word was {self.word}", view=self)
         else:
             await interaction.response.edit_message(
                 content=f"You have {self.hits} left! Current word: {self.found_letters}", view=self)
@@ -67,7 +66,7 @@ class HangmanBoard(discord.ui.View):
             await interaction.response.edit_message(content=f"You Lose! The word was {self.word}", view=self)
         elif self.found_letters == "".join(self.word):
             self.disable_buttons()
-            await interaction.response.edit_message(content="You Win!", view=self)
+            await interaction.response.edit_message(content=f"You Win! The word was {self.word}", view=self)
         else:
             await interaction.response.edit_message(
                 content=f"You have {self.hits} left! Current word: {self.found_letters}", view=self)
@@ -79,7 +78,7 @@ class HangmanBoard(discord.ui.View):
             await interaction.response.edit_message(content=f"You Lose! The word was {self.word}", view=self)
         elif self.found_letters == "".join(self.word):
             self.disable_buttons()
-            await interaction.response.edit_message(content="You Win!", view=self)
+            await interaction.response.edit_message(content=f"You Win! The word was {self.word}", view=self)
         else:
             await interaction.response.edit_message(
                 content=f"You have {self.hits} left! Current word: {self.found_letters}", view=self)
@@ -91,7 +90,7 @@ class HangmanBoard(discord.ui.View):
             await interaction.response.edit_message(content=f"You Lose! The word was {self.word}", view=self)
         elif self.found_letters == "".join(self.word):
             self.disable_buttons()
-            await interaction.response.edit_message(content="You Win!", view=self)
+            await interaction.response.edit_message(content=f"You Win! The word was {self.word}", view=self)
         else:
             await interaction.response.edit_message(
                 content=f"You have {self.hits} left! Current word: {self.found_letters}", view=self)
@@ -103,7 +102,7 @@ class HangmanBoard(discord.ui.View):
             await interaction.response.edit_message(content=f"You Lose! The word was {self.word}", view=self)
         elif self.found_letters == "".join(self.word):
             self.disable_buttons()
-            await interaction.response.edit_message(content="You Win!", view=self)
+            await interaction.response.edit_message(content=f"You Win! The word was {self.word}", view=self)
         else:
             await interaction.response.edit_message(
                 content=f"You have {self.hits} left! Current word: {self.found_letters}", view=self)
@@ -115,7 +114,7 @@ class HangmanBoard(discord.ui.View):
             await interaction.response.edit_message(content=f"You Lose! The word was {self.word}", view=self)
         elif self.found_letters == "".join(self.word):
             self.disable_buttons()
-            await interaction.response.edit_message(content="You Win!", view=self)
+            await interaction.response.edit_message(content=f"You Win! The word was {self.word}", view=self)
         else:
             await interaction.response.edit_message(
                 content=f"You have {self.hits} left! Current word: {self.found_letters}", view=self)
@@ -127,7 +126,7 @@ class HangmanBoard(discord.ui.View):
             await interaction.response.edit_message(content=f"You Lose! The word was {self.word}", view=self)
         elif self.found_letters == "".join(self.word):
             self.disable_buttons()
-            await interaction.response.edit_message(content="You Win!", view=self)
+            await interaction.response.edit_message(content=f"You Win! The word was {self.word}", view=self)
         else:
             await interaction.response.edit_message(
                 content=f"You have {self.hits} left! Current word: {self.found_letters}", view=self)
@@ -139,7 +138,7 @@ class HangmanBoard(discord.ui.View):
             await interaction.response.edit_message(content=f"You Lose! The word was {self.word}", view=self)
         elif self.found_letters == "".join(self.word):
             self.disable_buttons()
-            await interaction.response.edit_message(content="You Win!", view=self)
+            await interaction.response.edit_message(content=f"You Win! The word was {self.word}", view=self)
         else:
             await interaction.response.edit_message(
                 content=f"You have {self.hits} left! Current word: {self.found_letters}", view=self)
@@ -151,7 +150,7 @@ class HangmanBoard(discord.ui.View):
             await interaction.response.edit_message(content=f"You Lose! The word was {self.word}", view=self)
         elif self.found_letters == "".join(self.word):
             self.disable_buttons()
-            await interaction.response.edit_message(content="You Win!", view=self)
+            await interaction.response.edit_message(content=f"You Win! The word was {self.word}", view=self)
         else:
             await interaction.response.edit_message(
                 content=f"You have {self.hits} left! Current word: {self.found_letters}", view=self)
@@ -163,7 +162,7 @@ class HangmanBoard(discord.ui.View):
             await interaction.response.edit_message(content=f"You Lose! The word was {self.word}", view=self)
         elif self.found_letters == "".join(self.word):
             self.disable_buttons()
-            await interaction.response.edit_message(content="You Win!", view=self)
+            await interaction.response.edit_message(content=f"You Win! The word was {self.word}", view=self)
         else:
             await interaction.response.edit_message(
                 content=f"You have {self.hits} left! Current word: {self.found_letters}", view=self)
@@ -175,7 +174,7 @@ class HangmanBoard(discord.ui.View):
             await interaction.response.edit_message(content=f"You Lose! The word was {self.word}", view=self)
         elif self.found_letters == "".join(self.word):
             self.disable_buttons()
-            await interaction.response.edit_message(content="You Win!", view=self)
+            await interaction.response.edit_message(content=f"You Win! The word was {self.word}", view=self)
         else:
             await interaction.response.edit_message(
                 content=f"You have {self.hits} left! Current word: {self.found_letters}", view=self)
@@ -187,7 +186,7 @@ class HangmanBoard(discord.ui.View):
             await interaction.response.edit_message(content=f"You Lose! The word was {self.word}", view=self)
         elif self.found_letters == "".join(self.word):
             self.disable_buttons()
-            await interaction.response.edit_message(content="You Win!", view=self)
+            await interaction.response.edit_message(content=f"You Win! The word was {self.word}", view=self)
         else:
             await interaction.response.edit_message(
                 content=f"You have {self.hits} left! Current word: {self.found_letters}", view=self)
@@ -199,7 +198,7 @@ class HangmanBoard(discord.ui.View):
             await interaction.response.edit_message(content=f"You Lose! The word was {self.word}", view=self)
         elif self.found_letters == "".join(self.word):
             self.disable_buttons()
-            await interaction.response.edit_message(content="You Win!", view=self)
+            await interaction.response.edit_message(content=f"You Win! The word was {self.word}", view=self)
         else:
             await interaction.response.edit_message(
                 content=f"You have {self.hits} left! Current word: {self.found_letters}", view=self)
@@ -211,7 +210,7 @@ class HangmanBoard(discord.ui.View):
             await interaction.response.edit_message(content=f"You Lose! The word was {self.word}", view=self)
         elif self.found_letters == "".join(self.word):
             self.disable_buttons()
-            await interaction.response.edit_message(content="You Win!", view=self)
+            await interaction.response.edit_message(content=f"You Win! The word was {self.word}", view=self)
         else:
             await interaction.response.edit_message(
                 content=f"You have {self.hits} left! Current word: {self.found_letters}", view=self)
@@ -223,7 +222,7 @@ class HangmanBoard(discord.ui.View):
             await interaction.response.edit_message(content=f"You Lose! The word was {self.word}", view=self)
         elif self.found_letters == "".join(self.word):
             self.disable_buttons()
-            await interaction.response.edit_message(content="You Win!", view=self)
+            await interaction.response.edit_message(content=f"You Win! The word was {self.word}", view=self)
         else:
             await interaction.response.edit_message(
                 content=f"You have {self.hits} left! Current word: {self.found_letters}", view=self)
@@ -235,7 +234,7 @@ class HangmanBoard(discord.ui.View):
             await interaction.response.edit_message(content=f"You Lose! The word was {self.word}", view=self)
         elif self.found_letters == "".join(self.word):
             self.disable_buttons()
-            await interaction.response.edit_message(content="You Win!", view=self)
+            await interaction.response.edit_message(content=f"You Win! The word was {self.word}", view=self)
         else:
             await interaction.response.edit_message(
                 content=f"You have {self.hits} left! Current word: {self.found_letters}", view=self)
@@ -247,7 +246,7 @@ class HangmanBoard(discord.ui.View):
             await interaction.response.edit_message(content=f"You Lose! The word was {self.word}", view=self)
         elif self.found_letters == "".join(self.word):
             self.disable_buttons()
-            await interaction.response.edit_message(content="You Win!", view=self)
+            await interaction.response.edit_message(content=f"You Win! The word was {self.word}", view=self)
         else:
             await interaction.response.edit_message(
                 content=f"You have {self.hits} left! Current word: {self.found_letters}", view=self)
@@ -259,7 +258,7 @@ class HangmanBoard(discord.ui.View):
             await interaction.response.edit_message(content=f"You Lose! The word was {self.word}", view=self)
         elif self.found_letters == "".join(self.word):
             self.disable_buttons()
-            await interaction.response.edit_message(content="You Win!", view=self)
+            await interaction.response.edit_message(content=f"You Win! The word was {self.word}", view=self)
         else:
             await interaction.response.edit_message(
                 content=f"You have {self.hits} left! Current word: {self.found_letters}", view=self)
@@ -271,7 +270,7 @@ class HangmanBoard(discord.ui.View):
             await interaction.response.edit_message(content=f"You Lose! The word was {self.word}", view=self)
         elif self.found_letters == "".join(self.word):
             self.disable_buttons()
-            await interaction.response.edit_message(content="You Win!", view=self)
+            await interaction.response.edit_message(content=f"You Win! The word was {self.word}", view=self)
         else:
             await interaction.response.edit_message(
                 content=f"You have {self.hits} left! Current word: {self.found_letters}", view=self)
@@ -283,7 +282,7 @@ class HangmanBoard(discord.ui.View):
             await interaction.response.edit_message(content=f"You Lose! The word was {self.word}", view=self)
         elif self.found_letters == "".join(self.word):
             self.disable_buttons()
-            await interaction.response.edit_message(content="You Win!", view=self)
+            await interaction.response.edit_message(content=f"You Win! The word was {self.word}", view=self)
         else:
             await interaction.response.edit_message(
                 content=f"You have {self.hits} left! Current word: {self.found_letters}", view=self)
@@ -295,7 +294,7 @@ class HangmanBoard(discord.ui.View):
             await interaction.response.edit_message(content=f"You Lose! The word was {self.word}", view=self)
         elif self.found_letters == "".join(self.word):
             self.disable_buttons()
-            await interaction.response.edit_message(content="You Win!", view=self)
+            await interaction.response.edit_message(content=f"You Win! The word was {self.word}", view=self)
         else:
             await interaction.response.edit_message(
                 content=f"You have {self.hits} left! Current word: {self.found_letters}", view=self)
@@ -307,7 +306,7 @@ class HangmanBoard(discord.ui.View):
             await interaction.response.edit_message(content=f"You Lose! The word was {self.word}", view=self)
         elif self.found_letters == "".join(self.word):
             self.disable_buttons()
-            await interaction.response.edit_message(content="You Win!", view=self)
+            await interaction.response.edit_message(content=f"You Win! The word was {self.word}", view=self)
         else:
             await interaction.response.edit_message(
                 content=f"You have {self.hits} left! Current word: {self.found_letters}", view=self)
@@ -319,7 +318,7 @@ class HangmanBoard(discord.ui.View):
             await interaction.response.edit_message(content=f"You Lose! The word was {self.word}", view=self)
         elif self.found_letters == "".join(self.word):
             self.disable_buttons()
-            await interaction.response.edit_message(content="You Win!", view=self)
+            await interaction.response.edit_message(content=f"You Win! The word was {self.word}", view=self)
         else:
             await interaction.response.edit_message(
                 content=f"You have {self.hits} left! Current word: {self.found_letters}", view=self)
@@ -331,7 +330,7 @@ class HangmanBoard(discord.ui.View):
             await interaction.response.edit_message(content=f"You Lose! The word was {self.word}", view=self)
         elif self.found_letters == "".join(self.word):
             self.disable_buttons()
-            await interaction.response.edit_message(content="You Win!", view=self)
+            await interaction.response.edit_message(content=f"You Win! The word was {self.word}", view=self)
         else:
             await interaction.response.edit_message(
                 content=f"You have {self.hits} left! Current word: {self.found_letters}", view=self)
